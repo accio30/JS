@@ -1,0 +1,226 @@
+/* All u know*/
+
+body {
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+    background: #1B244A
+}
+
+
+button {
+        box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 155% */
+    text-align: center;
+
+    color: #9AABD8;
+    background: #1B244A;
+    
+}
+
+
+/* HOME TITLE text*/
+
+#HOME {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    /* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+/* Guest TITLE text*/
+
+#GUEST {position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    /* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+/* home points text, CHANGES*/
+
+#home-points-text {
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% */
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+/* Guest points text, CHANGES*/
+
+#guest-points-text {
+
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% */
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#guest-points-black {
+
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+ }
+
+
+
+ #home-points-black {
+
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    
+    background: #080001;
+    border-radius: 5px;
+ }
+
+ 
+
+
+
+#H1 {
+    left: 82px;
+}
+#H2 {
+    left: 136px;
+}
+#H3 {
+    left: 192px;
+}
+#G1 {
+    left: 337px;
+}
+#G2 {
+    left: 391px;
+}
+#G3 {
+    left: 447px;
+}
+
+#NEW {
+    width: 60px;
+    height: 60px;
+    left: 264px;
+}
+
+#TIMER {
+    width: 67px;
+    height: 60px;
+    left: 264px;
+    top: 30px;
+}
+
+
+#HSETS {
+    position: absolute;
+    width: 38px;
+    height: 43px;
+    left: 36px;
+    top: 164px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    color: #F94F6D;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#GSETS {
+    
+    position: absolute;
+    width: 38px;
+    height: 43px;
+    left: 500px;
+    top: 164px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    color: #F94F6D;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    background: #080001;
+    border-radius: 5px;
+
+}
