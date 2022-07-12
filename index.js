@@ -2,12 +2,10 @@ let homenum =document.getElementById("guest-points-text")
 let guestnum = document.getElementById("home-points-text")
 let hsetsnum = document.getElementById("HSETS")
 let gsetsnum = document.getElementById("GSETS")
-let timenum = document.getElementById("TIMER")
 let homechange = 0
 let guestchange = 0
 let gsetschange = 0
 let hsetschange = 0
-var timechange=30
 
 
 function func(val){
@@ -49,18 +47,15 @@ switch(val){
     homechange = 0
     hsetschange = 0
     gsetschange = 0
+    timechange = 0
 
     gsetsnum.textContent = gsetschange
     hsetsnum.textContent = hsetschange
     guestnum.textContent = guestchange
     homenum.textContent = homechange
+    timenum.textContent = timechange
     break
     case 10:
-        timechange -= 1
-        timenum.textContent = timechange
-        
-    break 
-    
 }
 }
 
