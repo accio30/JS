@@ -11,7 +11,7 @@ let hsetschange = 0
 function func(val){
 switch(val){
     case 1:
-        homechange += 1
+        homechange ++
         homenum.textContent = homechange   
     break
     case 2:
@@ -23,7 +23,7 @@ switch(val){
         homenum.textContent = homechange   
     break
     case 4:
-        guestchange += 1
+        guestchange ++
         guestnum.textContent = guestchange  
     break
     case 5:
@@ -35,11 +35,11 @@ switch(val){
         guestnum.textContent = guestchange  
     break   
     case 7:
-        hsetschange += 1
+        hsetschange ++
         hsetsnum.textContent = hsetschange
     break   
     case 8:
-        gsetschange += 1
+        gsetschange ++
         gsetsnum.textContent = gsetschange
     break   
     case 9:
